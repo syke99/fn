@@ -8,7 +8,7 @@ an actual implementation of a Result type in Go
 
 Why?
 =====
-As we all know, Go has a reputation for its error handling being very verbose. fn provides a clean, low-allocation
+As we all know, Go has a reputation for its error handling being very verbose. fn provides a clean
 implementation of a Result type. While fn requires that functions used with it only take one argument (it leverages
 Generics to make its code clean), it still keeps function calls clear, as well as the ability to clearly wrap
 errors as they happen
